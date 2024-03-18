@@ -54,7 +54,6 @@ body{
     flex-direction: row;
     height: 800px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .izquierda{
@@ -187,5 +186,4 @@ body{
         margin-top: 50px;
         height: 800px;
         width: 100%;
-        border: 1px solid red;
     }
