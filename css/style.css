@@ -116,6 +116,17 @@ body{
     gap:30px;
 }
 
+.star a:hover{
+    color: var(--color-negro);
+}
+
+.item:hover{
+    text-decoration: none;
+    transition: 1.2s ;
+    cursor: pointer;
+    color: var(--color-negro);
+    }
+
 .organiza{
     display: flex;
     flex-direction: column;
