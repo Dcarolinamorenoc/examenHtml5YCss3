@@ -1,6 +1,8 @@
 @import url(variables.css);
 
-
+body{
+    background: var(--color-fondo);
+}
 .principal{
     display: flex;
     flex-direction: column;
@@ -177,4 +179,13 @@
         font-size: 18px;
         font-weight: normal;
         color: var(--color-subtitulo);
+    }
+
+    .apartados{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        height: 800px;
+        width: 100%;
+        border: 1px solid red;
     }
